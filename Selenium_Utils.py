@@ -22,7 +22,6 @@ class SeleniumUtils:
         chrome_options.add_experimental_option('useAutomationExtension', False)
 
         # Define the path to your ChromeDriver
-        chrome_driver_path = chrome_driver_path
         service = Service(executable_path=chrome_driver_path)
 
         # Initialize Chrome WebDriver with the defined service
